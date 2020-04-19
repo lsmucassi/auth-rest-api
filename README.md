@@ -10,3 +10,4 @@ Packages installed
 - dotenv
 - @hapi/Joi
 - bcryptjs
+- jsonwebtoken
