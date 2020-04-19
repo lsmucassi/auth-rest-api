@@ -22,4 +22,4 @@ app.use(express.json())
 //Route Middlewares
 app.use('/api/user', authRoute)
 
-app.listen(3000, () => console.log('Server[/root/index.js]: Running @port 8080'))
+app.listen(8001, () => console.log('Server[/root/index.js]: Running @port 8001'))
