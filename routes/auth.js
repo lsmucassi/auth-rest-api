@@ -34,9 +34,9 @@ router.post('/register', async (req, res) => {
 })
 
 //Login
-router.post('./login', async (req, res) => {
+router.post('/login', async (req, res) => {
     //Validate before login
-    const {error} = registerValidation(req.body)
+    const {error} = loginValidation(req.body)
     if (error) return res.status(400).send(error.details[0].message)
 
     //Check if user already exist
