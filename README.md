@@ -9,3 +9,4 @@ Packages installed
 - mongoose
 - dotenv
 - @hapi/Joi
+- bcryptjs
